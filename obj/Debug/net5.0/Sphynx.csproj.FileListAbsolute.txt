@@ -1,0 +1,15 @@
+/Users/Nick/Desktop/CSE-week-8/sphynx/obj/Debug/net5.0/Sphynx.csprojAssemblyReference.cache
+/Users/Nick/Desktop/CSE-week-8/sphynx/obj/Debug/net5.0/Sphynx.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Nick/Desktop/CSE-week-8/sphynx/obj/Debug/net5.0/Sphynx.AssemblyInfoInputs.cache
+/Users/Nick/Desktop/CSE-week-8/sphynx/obj/Debug/net5.0/Sphynx.AssemblyInfo.cs
+/Users/Nick/Desktop/CSE-week-8/sphynx/obj/Debug/net5.0/Sphynx.csproj.CoreCompileInputs.cache
+/Users/Nick/Desktop/CSE-week-8/sphynx/bin/Debug/net5.0/Sphynx.deps.json
+/Users/Nick/Desktop/CSE-week-8/sphynx/bin/Debug/net5.0/Sphynx.runtimeconfig.json
+/Users/Nick/Desktop/CSE-week-8/sphynx/bin/Debug/net5.0/Sphynx.runtimeconfig.dev.json
+/Users/Nick/Desktop/CSE-week-8/sphynx/bin/Debug/net5.0/Sphynx.dll
+/Users/Nick/Desktop/CSE-week-8/sphynx/bin/Debug/net5.0/ref/Sphynx.dll
+/Users/Nick/Desktop/CSE-week-8/sphynx/bin/Debug/net5.0/Sphynx.pdb
+/Users/Nick/Desktop/CSE-week-8/sphynx/obj/Debug/net5.0/Sphynx.dll
+/Users/Nick/Desktop/CSE-week-8/sphynx/obj/Debug/net5.0/ref/Sphynx.dll
+/Users/Nick/Desktop/CSE-week-8/sphynx/obj/Debug/net5.0/Sphynx.pdb
+/Users/Nick/Desktop/CSE-week-8/sphynx/obj/Debug/net5.0/Sphynx.genruntimeconfig.cache

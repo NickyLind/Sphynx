@@ -1,0 +1,11 @@
+Test: Will display a question for user in console
+
+Test: Will correctly grab a user's input
+
+Test: Will decide if user's input is true or false
+
+Test: Will output text to the console depending on if user's answer is true or not
+
+Test: Will allow user to answer multiple questions
+
+Test: Will correctly return a console response depending on if user answers multiple questions correctly
