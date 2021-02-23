@@ -5,6 +5,19 @@ namespace RiddleAnswers
 {
   public class Answers
   {
+    private int _id;
+    private string _question;
+    private List <string> _answer = new List<string>{};
+    public Riddle(int id, string question, string answer)
+    {
+      _id=id;
+      _question=question;
+      _answer=answer;
+    }
+    // public static int Randomizer()
+    // {
+
+    // }
     public static bool CorrectAnswerOne(string answer)
     {
       return (answer == "a promise" || answer == "promise" || answer == "your word");

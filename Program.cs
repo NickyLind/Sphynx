@@ -10,36 +10,20 @@ namespace Sphynx
     public static void Main()
     {
       Console.WriteLine("'I am the mighty Sphynx answer my question correctly or I will devour you.'");
-      Console.WriteLine("'What can you break, even if you never pick it up or touch it?'");
-      string answer = Console.ReadLine().ToLower();
-      if (Answers.CorrectAnswerOne(answer))
-      {
-        Console.WriteLine("'You have guessed correctly, your life is spared for now mortal.'");
-        Console.WriteLine("'What has to be broken before you use it?'");
-        string answerTwo = Console.ReadLine().ToLower();
-        if (Answers.CorrectAnswerTwo(answerTwo))
-        {
-          Console.WriteLine("'Correct again.'");
-          Console.WriteLine("'David’s parents have three sons: Snap, Crackle, and what’s the name of the third son?'");
-          string answerThree = Console.ReadLine().ToLower();
-          if (Answers.CorrectAnswerThree(answerThree))
-          {
-            Console.WriteLine("'Correct again, I'm starting to get hungry.'");
-          }
-          else
-          {
-            Console.WriteLine("You have been eaten by the Sphynx");
-          }
-        }
-        else
-        {
-          Console.WriteLine("You have been eaten by the Sphynx");
-        }
-      }
-      else
-      {
-        Console.WriteLine("You have been eaten by the Sphynx");
-      }
+      List <string> RidOneAnswers = new List <string> {"a promise", "promise", "your word"};
+      Riddle riddleOne = new Riddle(1,"'What can you break, even if you never pick it up or touch it?'", RidOneAnswers);
+      List <string> RidTwoAnswers = new List <string> {"an egg", "egg"};
+      Riddle riddleTwo = new Riddle(2,"'What has to be broken before you use it?'", RidTwoAnswers);
+      List <string> RidThreeAnswers = new List<string> {"david"};
+      Riddle riddleThree = new Riddle(3,"'David’s parents have three sons: Snap, Crackle, and what’s the name of the third son?'", RidThreeAnswers);
+      Console.WriteLine(riddleOne.answer[1]);
+      
+      List<Riddle> Riddles = new List<Riddle>{riddleOne, riddleTwo, riddleThree};
     }
   }
 }
+
+
+
+
+
